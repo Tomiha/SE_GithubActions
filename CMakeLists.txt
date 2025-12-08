@@ -1,7 +1,9 @@
-cmake_minimum_required(VERSION 3.22)
+cmake_minimum_required(VERSION 3.24)
 project(CI_Demo)
 
 set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_POLICY_VERSION_MINIMUM 3.20)
+
 option(BUILD_TESTS "Build the tests" OFF)
 
 #Create Main Project Target
