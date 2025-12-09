@@ -2,8 +2,6 @@ cmake_minimum_required(VERSION 3.24)
 project(CI_Demo)
 
 set(CMAKE_CXX_STANDARD 11)
-set(CMAKE_POLICY_VERSION_MINIMUM 3.20)
-
 option(BUILD_TESTS "Build the tests" OFF)
 
 #Create Main Project Target
@@ -24,7 +22,7 @@ if(BUILD_TESTS)
     include(FetchContent)
     FetchContent_Declare(
     doctest
-    URL https://github.com/doctest/doctest/archive/refs/tags/v2.4.11.tar.gz # Github Release Package
+    URL https://github.com/doctest/doctest/archive/refs/tags/v2.4.12.tar.gz # Github Release Package
     )
     FetchContent_MakeAvailable(doctest)
 
