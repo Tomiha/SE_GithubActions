@@ -1,6 +1,6 @@
 
-name: "[Example] Actions 1"
-run-name: "[Example] Actions - Using prebuild actions"
+name: "[Example 7] Actions"
+run-name: "[Example 7] Actions - Using prebuild actions"
 
 on:
   workflow_dispatch:

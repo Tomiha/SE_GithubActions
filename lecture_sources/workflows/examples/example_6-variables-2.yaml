@@ -1,5 +1,5 @@
-name: "[Example] Variables 2"
-run-name: "[Example] Variables - Input/Output Variables"
+name: "[Example 6] Variables 2"
+run-name: "[Example 6] Variables - Input/Output Variables"
 
 on:
   workflow_dispatch:

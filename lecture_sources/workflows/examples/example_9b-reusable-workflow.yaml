@@ -1,7 +1,5 @@
-
-
-name: '[Example] Reusable Workflow 1'
-run-name: '[Example] Reusable Workflow'
+name: '[Example 9b] Reusable Workflow 1'
+run-name: '[Example 9b] Reusable Workflow'
 
 on:
   workflow_call:

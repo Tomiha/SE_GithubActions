@@ -1,5 +1,5 @@
-name: "[Example] Conditionals 1"
-run-name: "[Example] Conditionals"
+name: "[Example 8] Conditionals"
+run-name: "[Example 8] Conditionals"
 
 on: 
     workflow_dispatch: 

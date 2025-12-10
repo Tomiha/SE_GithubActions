@@ -1,5 +1,5 @@
-name: '[Example] Jobs 2'
-run-name: '[Example] Jobs - Dependencies & Matrix'
+name: '[Example 2] Jobs 2'
+run-name: '[Example 2] Jobs - Dependencies & Matrix'
 
 on: 
     workflow_dispatch: 

@@ -1,5 +1,5 @@
-name: '[Example] Jobs 1'
-run-name: '[Example] Jobs - Multiple Jobs'
+name: '[Example 1] Jobs 1'
+run-name: '[Example 1] Jobs - Multiple Jobs'
 
 on: 
     workflow_dispatch: 

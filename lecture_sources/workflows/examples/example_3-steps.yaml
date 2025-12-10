@@ -1,5 +1,5 @@
-name: '[Example] Steps 1'
-run-name: '[Example] Steps 1'
+name: '[Example 3] Steps 1'
+run-name: '[Example 3] Steps 1'
 
 on: 
     workflow_dispatch:

@@ -1,5 +1,5 @@
-name: "[Example] Variables 1"
-run-name: "[Example] Variables - Env/Secrets/Context Variables"
+name: "[Example 5] Variables 1"
+run-name: "[Example 5] Variables - Env/Secrets/Context Variables"
 
 on:
     workflow_dispatch: 
@@ -25,7 +25,7 @@ jobs:
       - name: Using Step-Level Environment Variable
         env:
           STEP_LEVEL_VAR: "This is a step-level environment variable"
-        run: "echo Step-Level Environment Variable: $STEP_LEVEL_VAR"
+        run: "echo Step-Level Environment Variable:  ${{ env.STEP_LEVEL_VAR }}"
 
       # Using a secret
       - name: Using Secret Variable

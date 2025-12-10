@@ -1,5 +1,5 @@
-name: '[Example] Gist Badge Json'
-run-name: '[Example] Update JSON contents of a Gist'
+name: '[Example 10] Gist Badge Json'
+run-name: '[Example 10] Update JSON contents of a Gist'
 
 on: 
   workflow_dispatch: 

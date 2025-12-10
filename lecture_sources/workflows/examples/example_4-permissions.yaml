@@ -1,5 +1,5 @@
-name: '[Example] Pemissions 1'
-run-name: '[Example] Permissions'
+name: '[Example 4] Pemissions'
+run-name: '[Example 4] Permissions'
 
 on:
     workflow_dispatch: 
