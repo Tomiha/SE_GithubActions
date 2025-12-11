@@ -24,7 +24,7 @@ jobs:
           - os: macos-latest
             logo_name: macos
 
-    uses: ./.github/workflows/demo-build-for-os.yaml
+    uses: ./.github/workflows/demo_4b-build-for-os.yaml
     secrets: inherit
     with:
       os: ${{matrix.os}}
